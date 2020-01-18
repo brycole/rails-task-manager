@@ -1,3 +1,30 @@
 // Place all the styles related to the tasks controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
+.task {
+  display: flex;
+  margin: 0;
+}
+
+p {
+  margin: 0;
+}
+
+h1 {
+  margin: 0;
+  margin-bottom: 5px;
+}
+
+h2 {
+  margin: 0;
+  margin-bottom: 5px;
+}
+
+.check {
+  margin-right: 2px;
+}
+
+.details {
+  margin-bottom: 8px;
+}
