@@ -5,3 +5,7 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
+
+Task.create(title: 'Run seed', details: 'run db:seed to add initial tasks')
+Task.create(title: 'add get route', details: 'create route to view all tasks')
+Task.create(title: 'add remaining routes', details: 'create the rest of the CRUD routes')
